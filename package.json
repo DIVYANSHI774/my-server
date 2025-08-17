@@ -7,10 +7,6 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.11.0",
     "body-parser": "^2.2.0",
@@ -23,5 +19,9 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "engines": {
+    "node": "24.x",
+    "npm": "11.x"
+  }
 }
